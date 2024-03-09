@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+/* header start */
+
+.header {
+    background-color: rgb(102, 164, 185);
+    color:white;
+    height: 50px;
+    line-height: 50px;
+}
+.header a {
+    float: right;
+    margin-top: 5px;
+    background-color: rgba(214, 202, 33, 0.952);
+    border-color: rgba(214, 202, 33, 0.952);
+    scale: 1.1;
+  
+}
+.header .btn-danger {
+    justify-content: space-between;
+}
+
+/* header end */
+
+
+/* start slider */
+
+h5 {
+    font-size: 30px;
+    color: rgb(3, 3, 3);
+}
+.carousel-caption p {
+    font-size: 20px;
+    color:   rgba(214, 202, 33, 0.952);
+}
+.carousel-item img {
+    width: 40px;
+}
+.carousel-indicators li {
+    height: 13px;
+    background-color: rgba(214, 202, 33, 0.952);
+
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(102, 32, 99, 0.315);
+    position: absolute;
+    z-index: 1;
+}
+
+/* end slider */
+
+
+/* start dishes */
+
+.dishes {
+    margin-top: 75px; 
+}
+.dishes i {
+    width: 100px;
+    height: 100px;
+    background-color:  rgba(214, 202, 33, 0.952);
+    color: rgb(27, 129, 90);
+    font-size: 35px;
+    padding: 25px;
+}
+.dishes h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.dishes P {
+    color: gray;
+    line-height: 1.5;
+}
+.dishes h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color:  rgb(39, 3, 38);
+}
+
+/* end dishes */
+
+
+
+/* start ourteam */
+
+.ourteam {
+    padding: 50px;
+    background-color:  rgba(214, 202, 33, 0.137);
+    border-bottom: 3px solid rgb(214, 202, 33, 0.952);
+    
+}
+.ourteam h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+.ourteam P {
+    color: gray;
+    line-height: 1.5;
+}
+.ourteam h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color:  rgb(39, 3, 38);
+}
+/* end ourteam */
+
+/* start statestic */
+.statestic {
+    background-image: url(../images/statestic.jpg);
+    width: 100%;
+    height: 690px;
+    background-size: cover;
+    background-attachment: fixed;   
+    border-bottom: 3px solid rgb(214, 202, 33, 0.952);
+
+}
+.statestic .overlay {
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+   
+}
+.statestic h3 {
+    color: rgba(214, 202, 33, 0.952);
+    text-align: center;
+}
+.statestic p {
+    color: white;
+    font-size: 75px;
+}
+/* end statestic */
+
+
+/* start customers */
+
+.customers {
+    height: 350px;
+    background-color: #eee;
+    line-height: 100px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(214, 202, 33, 0.952);
+}
+.customers h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color:  rgb(39, 3, 38);
+}
+
+/* end customers */
+
+
+
+/* start recent news */
+
+
+.recent-news .btn-danger {
+    background-color: rgba(214, 202, 33, 0.952);
+    border-color: rgba(214, 202, 33, 0.952);
+    transition: 1.5;
+}
+.recent-news .btn-danger:hover {
+    background-color: rgba(75, 70, 10, 0.952);
+    border-color: rgba(214, 202, 33, 0.952);
+    scale: 1.1;
+}
+.recent-news P {
+    color: gray;
+    line-height: 1.5;
+}
+.recent-news h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color:  rgb(39, 3, 38);
+}
+
+/* end recent news */
+
+
+
+/* start footer */
+
+footer {
+    background-color: rgb(69, 137, 160);
+    padding-top: 25px;
+    
+    margin-top: 150px;
+    border-bottom: 3px solid rgb(214, 202, 33, 0.952);
+}
+footer p {
+    color: whitesmoke;
+}
+footer h2 {
+    color: whitesmoke;
+}
+footer a {
+    color: whitesmoke;
+}
+footer a:hover {
+    color: #25050a;
+}
+footer ul li {
+    list-style: none;
+}
+
+.footer1 p {
+    color: whitesmoke;
+}
+.footer1 a {
+    text-decoration: none;
+}
+.footer1 span {
+    font-size: 13px;
+    color: darkgoldenrod;
+}
+
+/****** end footer ********/
+
+/* ***************************************************************************************** */
+
+         /* *********************** blog bage (p2) ****************************** */
+
+ /* start blog page */
+
+ .jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .jumbotron .blog-info {
+    flex: 2;
+ }
+ .jumbotron .blog-image {
+    flex: 1;
+ }
+ .jumbotron .btn-danger {
+    background-color: rgba(214, 202, 33, 0.952);
+    border-color: rgba(214, 202, 33, 0.952);
+    transition: 1.5;
+}
+.jumbotron .btn-danger:hover {
+    background-color: rgba(75, 70, 10, 0.952);
+    border-color: rgba(214, 202, 33, 0.952);
+    scale: 1.1;
+}
+  /* end blog page */
+
+ /* *************************************************************************************** */
+
+                /* ************** blog details page (p3) ******* */ 
+
+/* blog details start*/
+
+.blog-detals p {
+    line-height: 2;
+    padding: 10px;
+}
+/* blog details end*/
+
+
+/* ***************************************************************************************** */
+
+         /* ***********************gym memberships page (p ) ****************************** */
+
+
+/* membership start */
+
+.membership {
+    transition: 0.5sec;
+}
+.membership img:hover {
+    transform: scale(1.1);
+}
+.membership a {
+    text-decoration: none;
+}
+
+/* membership end */
